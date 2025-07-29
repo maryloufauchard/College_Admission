@@ -1,0 +1,26 @@
+name: scp_bench
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pip
+  - pip:
+      - vllm
+      - transformers
+      - sentencepiece
+      - tqdm
+      - openai
+      - ray
+      - safetensors
+      - einops
+      - regex
+      - tokenizers
+      - xformers
