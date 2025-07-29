@@ -1,4 +1,5 @@
 # College_Admission
+This is a benchmark for the college admission problem, a many-to-one matching. The goal is to analyze the reasoning capabilities of different LLMs with preference and stability constraints. The 369 instances included in the original benchmark are not supposed to be representative of real world size, but allowed us to see the change in performances when the complexity increase with both the number of students and the type of preferences. 
 
 ## How to use 
 ### DATASET 
