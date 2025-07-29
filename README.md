@@ -3,10 +3,10 @@ This is a benchmark for the college admission problem, a many-to-one matching. T
 
 ## How to use 
 ### DATASET 
-The instances are in the folder *** with their respective solution from the DA algorithm in ***. New instances and matching can be created with the file creation_instances.jl 
+The instances are in the folder Dataset_Instance with their respective solution from the DA algorithm in Dataset_match. New instances and matching can be created with the file creation_instances.jl by changing the parameters at the end of this file. 
 
 ### Generation 
-In order to test the LLMs with all instances of the dataset, we first need to generate the output from the LLMs with the file generation_scp.py. For that, we need to choose a prompt instruction, and adapt the path of the config file. For every prompt template, there is a sbactch file. 
+In order to test the LLMs with all instances of the dataset, we first need to generate the output from the LLMs with the file generation_scp.py. For that, we need to choose a prompt instruction, and adapt the path of the config file. For every prompt template, there is a sbactch file in the folder sbatch. Make sure to adapt every path to your configuration.  
 
 After running the LLM on all instances, we need to extract the matching, which is done with extract_matching.py
 
