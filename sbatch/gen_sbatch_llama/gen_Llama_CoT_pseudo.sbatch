@@ -3,7 +3,7 @@
 #SBATCH --gres=gpu:80gb:2
 #SBATCH --mem=32000M
 #SBATCH --time=10:00:00
-#SBATCH -o llm_scp/Generation-smallLlama-%j.out 
+#SBATCH -o llm_scp/Generation-Llama-%j.out 
 
 #Load the required module
 module --quiet load anaconda/3
