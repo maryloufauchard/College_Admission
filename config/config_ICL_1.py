@@ -1,12 +1,13 @@
 # config file
+# config file, make sure to adapt each path
 path = {
-    'cache_dir': '/home/mila/m/marylou.fauchard/scratch/llm_scp',  # <- adapt your path!
-    'save_dir': '/home/mila/m/marylou.fauchard/scratch/llm_scp/save',
-    'output_path': '/home/mila/m/marylou.fauchard/llm_scp/TEST_ICL_1_MISTRAL', # CHANGE FOR EACH MODEL !!
-    'instance_dir' : '/home/mila/m/marylou.fauchard/llm_scp/LLM_instances_v2', 
-    'instruction_dir' : '/home/mila/m/marylou.fauchard/llm_scp/LLM_instruction_ICL',
-    'example_dir' : '/home/mila/m/marylou.fauchard/llm_scp/LLM_example_final',
-    'example_match_dir':  '/home/mila/m/marylou.fauchard/llm_scp/LLM_example_match_final'
+    'cache_dir': 'scratch/llm_scp',  # <- adapt your path!
+    'save_dir': 'save', # adpat
+    'output_path': 'Generation_ICL_Llama8B', # CHANGE FOR EACH MODEL !!
+    'instance_dir' : 'Dataset_Instance', 
+    'instruction_dir' : 'Prompt_Template/LLM_instruction_ICL',
+    'example_dir' : 'LLM_example_final',
+    'example_match_dir':  'LLM_example_match_final'
     
 }
 
