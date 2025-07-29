@@ -69,6 +69,6 @@ def extract_first_matching_block(input_folder, output_folder):
 
 
 
-generated_file = "/llm_scp/Generation_Role_Llama8B"
-output_extract = "/llm_scp/extracted_match_Role_Llama8B"
+generated_file = "llm_scp/Generation_Role_Llama8B"
+output_extract = "llm_scp/extracted_match_Role_Llama8B"
 extract_first_matching_block(generated_file, output_extract)
