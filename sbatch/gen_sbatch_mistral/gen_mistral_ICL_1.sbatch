@@ -5,6 +5,7 @@
 #SBATCH --time=10:00:00
 #SBATCH -o llm_scp/Generation-Mistral-%j.out 
 
+
 #Load the required module
 module --quiet load anaconda/3
 #Load your environment
