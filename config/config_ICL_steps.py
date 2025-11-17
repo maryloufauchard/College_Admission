@@ -1,9 +1,9 @@
 # config file
 # config file, make sure to adapt each path
 path = {
-    'cache_dir': 'scratch/llm_scp',  # <- adapt your path!
-    'save_dir': 'save', # adpat
-    'output_path': 'Generation_ICL_steps_Llama8B', # CHANGE FOR EACH MODEL !!
+    'cache_dir': 'scratch/llm_scp',
+    'save_dir': 'save',
+    'output_path': 'Generation_ICL_steps_Llama8B', # CHANGE FOR EACH MODEL
     'instance_dir' : 'Dataset_Instance', 
     'instruction_dir' : 'Prompt_Template/LLM_instruction_ICL_steps',
     'example_dir' : 'LLM_example_final',
